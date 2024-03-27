@@ -1,0 +1,6 @@
+version : "3.3"
+services :
+  web :
+     image : jack1docker/im1:latest
+     ports :
+         - "3003:5000"
